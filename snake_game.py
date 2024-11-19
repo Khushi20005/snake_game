@@ -1,5 +1,4 @@
-# Simple Snake Game in python 3	
-
+# Simple Snake Game in python 3
 #Import necessary liabaries
 import turtle#used for grapical interface
  
@@ -39,7 +38,7 @@ wn.tracer(0) # Turns off the screen updates
  
  
  
-# Snake head of squre 
+# Snake head of square
  
 head = turtle.Turtle() #create the turtle for the snake head
  
@@ -58,7 +57,7 @@ head.direction = "stop" # set the direction of the head
  
  
  
-# Snake foood
+# Snake food
  
 food = turtle.Turtle() # create the turtle object for the food
  
@@ -101,7 +100,7 @@ pen.write("Score: 0  High Score: 0", align="center", font=("Courier", 24, "norma
  
  
  
-# Functions for moments and stuff
+# Functions for movements and stuff
  
 def go_up():
  
@@ -201,7 +200,7 @@ while True:
  
  
  
-  # Check for a collision with the bodr
+  # Check for a collision with the boader
  
   if head.xcor()>290 or head.xcor()<-290 or head.ycor()>290 or head.ycor()<-290:#if the snake hits the edge
  
